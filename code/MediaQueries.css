@@ -6,6 +6,9 @@
     
     /* 
     */
+    .hamburger{
+        display: inline;
+    }
     .client-tes-desk{
         display: none;
     }
@@ -45,19 +48,17 @@
 
 @media screen and (min-width: 1200px ) {
 
-  
+    
     .peaple-resp-desing{
 
         grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     }
 }
 @media screen and (min-width: 800px ) {
-    /* .flex-direction-stand{
-        display: flex;
-        flex-flow: row wrap;
-        display: grid;
-        grid-template-columns:  repeat(2, 50%) ;
-    } */
+    .hamburger{
+        display: none !important;
+    }
+    
     .article-header-Tran-your-brand{
         display: grid;
         grid-template-columns: repeat(2, 50%) ;
@@ -77,13 +78,7 @@
 @media screen and (min-width: 600px ) {
     
     
-    .article-text__transform{
-        /* padding: 1px; */
-    }
-    .article-text__transform>*{
-        /* font-size: 1.5rem; */
-        
-    }
+   
   
     .fotter-img-article{
         width: 100%;
@@ -97,9 +92,7 @@
     
    
 
-    .hamburger--3dx{
-        display: none !important;
-    }
+   
     .grid-responsive-grapgicAndPhoto{
         display: grid;
         grid-template-columns: repeat(2, 50%);
@@ -152,7 +145,8 @@
 }
 @media screen and (max-width:600px ) {
    
-   
+    
+    
     .images2{
         display: none !important;
         
