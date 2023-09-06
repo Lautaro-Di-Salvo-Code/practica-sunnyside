@@ -1,0 +1,38 @@
+/* 
+} */
+.group-options-menuMobile.on{
+    opacity: 100%;
+    transition: .2s ease-in-out;
+}
+.group-options-menuMobile .item{
+    text-align: center;
+    color:var(--general-colorText);
+    
+}
+.group-options-menuMobile .item:last-child{
+    background-color: rgb(255,214, 2);
+    margin: auto;
+    border-radius: 3rem;
+}
+
+
+
+.group-options-menuMobile{
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999;
+    position: absolute;
+    right:-7rem ;
+    left: -8rem;
+    top: 5rem;
+    bottom: 21rem;
+    background-color: azure;
+    width: 15rem;
+    margin: auto;
+    border-radius: 2rem;
+    opacity: 0;
+    transition: .2s ease-in-out;
+    
+}
