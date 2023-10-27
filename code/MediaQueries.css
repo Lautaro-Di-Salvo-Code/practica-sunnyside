@@ -4,11 +4,32 @@
 /* version mobile */
 @media screen and (max-width: 600px ) {
     
-    /* 
-    */
-    .hamburger{
-        display: inline;
+    
+    .nav-styles{
+        display: none;
     }
+    .nav-styles-mobile{
+        display: flex ;
+        width: 100%;
+        margin: 2rem auto;
+        
+    }
+    .title-header-desk{
+        display: none;
+    }
+    .title-header-mobile{
+        width: fit-content;
+        margin: 5rem auto ;
+        font-size: 3rem;
+        font-family: 'Fraunces', serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 700;
+        color:var(--general-colorTextwhite);
+        letter-spacing: .3rem;
+    }
+    
     .client-tes-desk{
         display: none;
     }
@@ -22,29 +43,24 @@
         
     }
     
-    .article-text__transform{
-        padding: 1px;
-    }
-    /* .article-text__transform>*{
-        font-size: 1rem;
-        
-    } */
-   
+    
+    
+    
 }
 
-/* este ancho va a tener un minimo de 600px hasta que se desactive */
-/* version escritorio */
-/* de 400px a 900px font size 1rem padding 0, de 900px a mas 2rem y padding 10rem*/
-/* @media screen and (min-width: 600px ) {
-    .article-text__transform{
-        padding: 10rem;
-    }
-    .article-text__transform>*{
+@media screen and (max-width: 340px ) {
+    .title-header-mobile{
         font-size: 2rem;
-        
     }
+    .title-transfor__style{
+        font-size: 2rem;
+    }
+    .title-sunnyside-style{
+    font-size: 1.4rem !important;
+    
+}
+}
 
-} */
 
 @media screen and (min-width: 1200px ) {
 
@@ -54,11 +70,12 @@
         grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     }
 }
-@media screen and (min-width: 800px ) {
-    .hamburger{
+/* si se achica mas de este ancho, se desactivan estos valores */
+@media screen and (min-width: 660px ) {
+    
+   .hamburger{
         display: none !important;
     }
-    
     .article-header-Tran-your-brand{
         display: grid;
         grid-template-columns: repeat(2, 50%) ;
@@ -88,10 +105,11 @@
         
     }
 }
+
 @media screen and (min-width:600px ) {
     
    
-
+    
    
     .grid-responsive-grapgicAndPhoto{
         display: grid;
@@ -143,17 +161,26 @@
     
    
 }
+/* aparece el boton */
+
 @media screen and (max-width:600px ) {
    
-    
+   
     
     .images2{
         display: none !important;
         
     } 
     .images2{
-        display: inline !important;
+        display:inline-flex !important;
+        object-fit:cover;
         
+        background-size:cover ;
+        background-position: top;
+        background-repeat: no-repeat;
+        height:36rem;
+        /* object-fit: fill;
+        object-position: bottom; */
     } 
     
     .images-pomelo-header-big{

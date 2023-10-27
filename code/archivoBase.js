@@ -1,4 +1,4 @@
-export default function HamMenu(hamButton, insideBtn1 ,insideBtn2, menuOptions){
+ function HamMenu(hamButton, insideBtn1 ,insideBtn2, menuOptions){
     let d = document
     
     d.addEventListener('click', (e)=>{
@@ -9,3 +9,14 @@ export default function HamMenu(hamButton, insideBtn1 ,insideBtn2, menuOptions){
     })
     
     }
+
+document.addEventListener('DOMContentLoaded', e=>{
+    
+        HamMenu('.hamburger',
+        '.hamburger-box  ',
+        ' .hamburger-inner ',
+        '.group-options-menuMobile')
+    })
+    
+    
+    
