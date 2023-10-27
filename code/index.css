@@ -21,16 +21,25 @@ html {
 
 article{
     padding: 0;
+    /* display: inline-block; */
+}
+img{
+    
+    height:auto;
+    width:100%;
+    
 }
 .images{
 
     height: 100%;
-    object-fit: cover;
     margin: 0 auto;    
     width: 100%;
     font-family: 'Fraunces', serif;
 }
-
+.images2-cereza{
+    object-fit: cover;
+    
+}
 svg ,.footer-options
 {
     cursor: pointer;
@@ -190,7 +199,7 @@ h1, h3, h3{
 
 
 div{
-    display: inline;
+    display: block;
 }
 h1{
     padding: 1rem;
@@ -208,12 +217,6 @@ iframe{
     width:100%;
 }
 
-img{
-    
-    height:100%;
-    width: 100%;
-    
-}
 
 
 /* ESTILOS DE BARRA NAVEGACION */
@@ -289,7 +292,7 @@ h6{
     
 }
 .info-photo{
-    margin: 1rem;
+    margin: 0;
 }
 .article-text__transform>*{
     margin: 2px;

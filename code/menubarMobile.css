@@ -40,10 +40,11 @@
     height: 20rem;
     bottom: 26rem;
     background-color: azure;
-    width: 19rem;
+    width: 60%;
     margin: auto;
     /* border-radius: 2rem; */
     opacity: 0;
     transition: .2s ease-in-out;
+    clip-path: polygon(0 8%, 92% 8%, 100% 0, 100% 68%, 100% 100%, 0 100%, 0 74%);
     
 }
