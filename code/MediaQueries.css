@@ -2,9 +2,134 @@
 
 /* este ancho va a tener un maximo de 600px hasta que se desactive */
 /* version mobile */
-@media screen and (max-width: 600px ) {
+
+
+@media screen and (min-width: 555px ) {
+
+    .images-pomelo-header-big{
+    
+        background-image: url(/code/imagesALLPAGE/image-header.jpg);
+        height: 81vh;
+        background-repeat: no-repeat;
+        background-size: 85rem;
+        background-position: bottom;
+
+    } 
+    .peaple-resp-desing{
+
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    }
+    .hamburger{
+         display: none !important;
+     }
+     .article-header-Tran-your-brand{
+         display: grid;
+         grid-template-columns: repeat(2, 50%) ;
+         grid-template-rows: 100%;
+         width: 100%;
+     }
+     .article-header-Tran-your-brand .images{
+         order: 2;
+     }
+     .article-header-Tran-your-brand > article{
+         order: 1;
+     }
+    
+     .article-header-Tran-your-brand2{
+         display: grid;
+         grid-template-columns:  repeat(2, 50%) ;
+     }
+     .fotter-img-article{
+         width: 100%;
+         height: auto;
+         grid-template-columns: repeat(4, 25%);
+         grid-template-rows: 30%;
+         
+        }
+        .grid-responsive-grapgicAndPhoto{
+            display: grid;
+            grid-template-columns: repeat(2, 50%) ;
+            width: 100%;
+            
+        }
+        
+        .article-fotter:last-child div {
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+        .apps-menu__style svg{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        
+        }
+        
+        .client-tes-desk{
+            text-align: center;
+            background-color: var(--background-colorwhite);
+        }
+        .client-tes-mobile{
+            display: none;
+        }
+        .peaple-resp-desing{
+            grid-template-columns: repeat(3, 33%);
+            grid-template-rows: 100%;
+        }
+        .graphic-des{
+            background-image: url(/code/imagesALLPAGE/image-graphic-design.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:top ;
+            height: 73vh;
+        }
+        .graphic-des-2{
+            background-image: url(/code/imagesALLPAGE/image-photography.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:top ;
+            height: 73vh;
+        }
+        
+    }
+    /* si se achica mas de este ancho, se desactivan estos valores */
     
     
+    
+    
+    
+    
+    
+    @media screen and (max-width:555px ) {
+        
+       
+        
+        .graphic-des-2{
+        background-image: url(/code/imagesALLPAGE/image-photography.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:top ;
+        height: 73vh;
+    }
+
+    .graphic-des{
+        background-image: url(/code/imagesALLPAGE/image-graphic-design.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:top ;
+        height: 73vh;
+    }
+    
+
+    .images-pomelo-header-big{
+    
+        background-image: url(/code/imagesALLPAGE/image-header.jpg);
+        height: 49vh;
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-position: bottom;
+
+    } 
     .nav-styles{
         display: none;
     }
@@ -18,9 +143,8 @@
         display: none;
     }
     .title-header-mobile{
-        width: fit-content;
         margin: 5rem auto ;
-        font-size: 3rem;
+        font-size: 8vw;
         font-family: 'Fraunces', serif;
         display: flex;
         justify-content: center;
@@ -42,16 +166,7 @@
         grid-template-rows: repeat(2, 50%);
         
     }
-    
-    
-    
-    
-}
-
-@media screen and (max-width: 340px ) {
-    .title-header-mobile{
-        font-size: 2rem;
-    }
+   
     .title-transfor__style{
         font-size: 2rem;
     }
@@ -59,115 +174,11 @@
     font-size: 1.4rem !important;
     
 }
-}
-
-
-@media screen and (min-width: 1200px ) {
-
-    
-    .peaple-resp-desing{
-
-        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    }
-}
-/* si se achica mas de este ancho, se desactivan estos valores */
-@media screen and (min-width: 660px ) {
-    
-   .hamburger{
-        display: none !important;
-    }
-    .article-header-Tran-your-brand{
-        display: grid;
-        grid-template-columns: repeat(2, 50%) ;
-    }
-    .article-header-Tran-your-brand .images{
-        order: 2;
-    }
-    .article-header-Tran-your-brand > article{
-        order: 1;
-    }
-
-    .article-header-Tran-your-brand2{
-        display: grid;
-        grid-template-columns:  repeat(2, 50%) ;
-    }
-}
-@media screen and (min-width: 600px ) {
-    
-    
-   
-  
-    .fotter-img-article{
-        width: 100%;
-        height: auto;
-        grid-template-columns: repeat(4, 25%);
-        grid-template-rows: 30%;
-        
-    }
-}
-
-@media screen and (min-width:600px ) {
-    
-   
-    
-   
-    .grid-responsive-grapgicAndPhoto{
-        display: grid;
-        grid-template-columns: repeat(2, 49%) ;
-        
-    }
-    .article-fotter:last-child div {
-        display: flex;
-        text-align: center;
-        justify-content: space-evenly;
-    }
-    .apps-menu__style svg{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-    }
-    
-    .client-tes-desk{
-        text-align: center;
-        background-color: var(--background-colorwhite);
-    }
-    .client-tes-mobile{
-        display: none;
-    }
-    .peaple-resp-desing{
-        grid-template-columns: repeat(3, 33%);
-        grid-template-rows: 100%;
-    }
-    .images-pomelo-header-big{
-        display: none;
-        width: 100%;
-        
-    } 
-    .images-pomelo-header-small{
-        display: inline;
-        width: 100%;
-        
-        
-    } 
-    
-}
-
-@media screen and (max-width:930px ) {
     .group-options .item{
         display: none;
     }
 
    
-    
-   
-}
-/* aparece el boton */
-
-@media screen and (max-width:600px ) {
-   
-   
-    
     .images2{
         display: none !important;
         
@@ -180,21 +191,13 @@
         background-position: top;
         background-repeat: no-repeat;
         height:36rem;
-        /* object-fit: fill;
-        object-position: bottom; */
+        
     } 
     
-    .images-pomelo-header-big{
-        display: block;
-        margin-left: auto;
-        margin-right:auto ;
-        width: 100%;
-        
-        
-    } 
-    .images-pomelo-header-small{
-        display: none;
-        width: 100%;
-        
-    } 
+  
+    
+    
+   
 }
+
+
