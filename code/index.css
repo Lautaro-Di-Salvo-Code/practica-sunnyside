@@ -330,7 +330,7 @@ h6{
 .image-transf-styles{
 
     object-fit: cover;
-    background-image: url(imagesALLPAGE/image-egg.jpg);
+    background-image: url(/image-egg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 65vh;
@@ -340,7 +340,7 @@ h6{
 .image-standout-styles{
 
     object-fit: cover;
-    background-image: url(imagesALLPAGE/image-stand-out.jpg);
+    background-image: url(/image-stand-out.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 65vh;
