@@ -84,7 +84,7 @@
             height: 73vh;
         }
         .graphic-des-2{
-            background-image: url("imagesALLPAGE/image-photography.jpg");
+            background-image: url("/imagesALLPAGE/image-photography.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position:top ;
@@ -105,7 +105,7 @@
        
         
         .graphic-des-2{
-        background-image: url("imagesALLPAGE/image-photography.jpg");
+        background-image: url("/imagesALLPAGE/image-photography.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:top ;
@@ -113,7 +113,7 @@
     }
 
     .graphic-des{
-        background-image: url("imagesALLPAGE/image-graphic-design.jpg");
+        background-image: url("/imagesALLPAGE/image-graphic-design.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:top ;
